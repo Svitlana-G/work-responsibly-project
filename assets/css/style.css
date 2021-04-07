@@ -12,8 +12,7 @@ body{
 }
 header {
     padding-left: 10%;
-    height: 98vh;
-
+  
 }
 header ul{
     list-style-type: none;
@@ -45,7 +44,7 @@ header h2{
 header div ul{
     text-align: right;
     padding-right: 10%;
-    padding-top: 5vh;
+    padding-top: 10vh;
 }
 
 header div li img{
@@ -56,7 +55,7 @@ header div li{
 }
 
 header p{
-    padding-top: 12vh;
+    padding-bottom: 5vh;
     color: #666;
 }
 
@@ -87,6 +86,9 @@ section:nth-of-type(1) div img{
     margin: 2.5%;
 
 }
+section:nth-of-type(1) div img:hover{
+    box-shadow: 1px 1px 5px 5px #ccc;
+ }
 section:nth-of-type(1) div{
     margin-left: 4.5%;
    
@@ -117,6 +119,8 @@ section:nth-of-type(2) div img{
    width: 50%;
    margin-top: 5vh;
 }
+
+
 section:nth-of-type(2) div:nth-of-type(2) p, section:nth-of-type(2) div:nth-of-type(4) p{  
     margin-left: 50%;
 }
