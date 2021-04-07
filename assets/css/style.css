@@ -1,0 +1,142 @@
+/*
+font:roboto
+
+farbe (background/border): #eee, #ccc 
+farbe text: #659d89, #333, #666, #000
+*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #eee;
+}
+header {
+    padding-left: 10%;
+    height: 98vh;
+
+}
+header ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+header a{
+    text-decoration: none;
+    color:#659d89;
+}
+header nav li{
+    display: inline-block;
+    padding-right: 5%;
+    padding-top: 5vh;
+}
+
+header h1{
+    font-size: 4em;
+    padding-top: 15vh;
+    margin-bottom: 0;
+    color:#659d89;
+}
+
+header h2{
+    font-size: 3em;
+    width: 50%;
+    margin-top: 2vh;
+    color:#333;
+}
+header div ul{
+    text-align: right;
+    padding-right: 10%;
+    padding-top: 5vh;
+}
+
+header div li img{
+    width: 25px;
+}
+header div li{
+    padding-bottom: 10px;
+}
+
+header p{
+    padding-top: 12vh;
+    color: #666;
+}
+
+header p::before {
+    content: "\2B07";
+
+}
+header{
+    border-bottom: .1rem solid #ccc;
+}
+
+section:nth-of-type(1){
+    height: 98vh;
+    border-bottom: .1rem solid #ccc;
+}
+
+section{
+    padding-left: 10%;
+    padding-top: 6vh;
+    color: #666;
+}
+
+section h2{
+    margin-top: 0;
+}
+section:nth-of-type(1) div img{
+    width: 22%;
+    margin: 2.5%;
+
+}
+section:nth-of-type(1) div{
+    margin-left: 4.5%;
+   
+}
+section:nth-of-type(1) div:nth-of-type(1){
+    padding-top: 8vh;
+}
+
+section:nth-of-type(2) div:nth-of-type(1){
+    margin-left: 7%;
+
+}
+section:nth-of-type(2) div p{
+    text-align: center;
+    width: 50%;
+  
+}
+section:nth-of-type(2) div p:nth-of-type(2) {
+    color:#000;
+}
+
+section:nth-of-type(2) div:nth-of-type(2), section:nth-of-type(2) div:nth-of-type(4){
+    text-align: right;
+    margin-right: 7%;
+}
+
+section:nth-of-type(2) div img{
+   width: 50%;
+   margin-top: 5vh;
+}
+section:nth-of-type(2) div:nth-of-type(2) p, section:nth-of-type(2) div:nth-of-type(4) p{  
+    margin-left: 50%;
+}
+section:nth-of-type(2) div:nth-of-type(4){
+    padding-bottom: 10vh;
+}
+footer{
+    border-top: 0.1rem solid #ccc;
+    color:#666;
+    text-align: center;
+}
+
+footer h2{
+    padding: 10vh 0;
+}
+
+footer p{
+    font-size: .7rem;
+}
+
+footer h2:before{
+    content: "\2B06   ";
+}
